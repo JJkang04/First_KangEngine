@@ -55,8 +55,6 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     return (int) msg.wParam;
 }
 
-
-
 //
 //  함수: MyRegisterClass()
 //
@@ -82,7 +80,7 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
 
     return RegisterClassExW(&wcex);
 }
-
+// 테스트용 첫 커밋
 //
 //   함수: InitInstance(HINSTANCE, int)
 //
